@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.bar{
+    border: none;
+    background-color: rgb(226, 226, 226);
+    border-radius: 6px;
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+ul{
+    display: inline-flex;
+    gap :30px;
+    margin-right: 20px;
+    
+}
+li{
+   
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+
+li:hover{
+    background-color: orangered;
+    
+}

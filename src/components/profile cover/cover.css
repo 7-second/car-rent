@@ -1,0 +1,58 @@
+
+.container{
+    width: 100%;
+    height: 150px;
+   
+    display: inline-block;
+    justify-content: space-between;
+}
+.parent{
+    width: 100%;
+    position: relative;
+}
+.backimage{
+    width: 100%;
+    height: 100px;
+    border-radius: 7px;
+}
+.bntcover{
+    position: absolute;
+    border-radius: 10px;
+    width:80px;
+    padding: 10px;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(70, 145, 243, 0.849);
+    border: none;
+    cursor: pointer;
+}
+.bntcover:hover{
+    background-color: orangered;
+}
+.proimage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+.name{
+    width: 50px;
+    margin-left: 120px;
+}
+.btnpro{
+    margin-left: 1140px;
+    margin-top: -40px;
+    position: absolute;
+    border-radius: 10px;
+    width:80px;
+    padding: 10px;
+    right: 30px;
+    background-color: rgba(70, 145, 243, 0.849);
+    border: none;
+    cursor: pointer;
+}
+.btnpro:hover{
+    background-color: orangered;
+}

@@ -1,0 +1,9 @@
+.cards{
+    display: flex;
+    gap:10px;
+    overflow-x: auto;
+}
+.pro{
+    display: flex;
+    gap:10px;
+}
