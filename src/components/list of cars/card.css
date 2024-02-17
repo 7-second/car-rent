@@ -1,10 +1,9 @@
 
 .con{
     margin-top: 30px;
-    width: fit-content;
+    width: 220px;
     height: 270px;
     display: inline-block;
-    background-color: rgb(243, 245, 244);
     box-shadow: 2px 3px 25px rgba(129, 129, 236, 0.705);
 }
 .head{
@@ -15,7 +14,9 @@
     padding-left: 15px;
     
 }
-
+.imgcont{
+    height: 150px;
+}
 .car-name{
    
     font-size: 19px;
@@ -24,13 +25,14 @@
    
 }
 .images-of-cars{
+    border-radius: 5px;
  height: 150px;
  width: 200px;
 
 }
 
 .images-of-cars:hover{
-    transform: scale(1.7);
+    transform: scale(1.1);
     opacity: 0.5;
     transition: 2s ease-in-out;
    

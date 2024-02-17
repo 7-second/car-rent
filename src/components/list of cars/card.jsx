@@ -16,7 +16,7 @@ function Card({ car }) {
           </div>
         </div>
 
-        <div>
+        <div className="imgcont">
           <img className="images-of-cars" src={car.image} alt="Car" />
         </div>
 

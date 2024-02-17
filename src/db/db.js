@@ -11,11 +11,13 @@ export const cars = [
     title: "biniyam",
     id: 2,
     price: 345678909876534,
+    image:"https://www.shutterstock.com/image-photo/passenger-car-isolated-on-white-600nw-2307569253.jpg"
   },
   {
     title: "mikiya",
     id: 3,
     price: 1230987654,
+    image:"https://img.lovepik.com/free-png/20210926/lovepik-a-car-png-image_401434180_wh1200.png"
   },
   {
     title: "ahiya",
